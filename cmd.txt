@@ -1,0 +1,2 @@
+python train.py --epochs 6000 --batch-size 32 --img-size 640 640 --save_period 20  --linear-lr --data C:\work\program\python\ObjectDetect\program\weights\mydataset1.yaml --hyp C:\work\program\python\ObjectDetect\program\weights\myhyp1.yaml --weights C:\work\program\python\ObjectDetect\program\weights\xray-sot23.pt --start_epoch 0
+python train.py --weights runs\train\exp37\weights\best.pt --epochs 4000 --img-size 640 640 --save_period 400 --batch-size 32 --linear-lr --resume
